@@ -1,0 +1,9 @@
+commands:-
+
+sudo raspi-config
+# Enable I2C
+pip install board --break-system-packages
+sudo pip install drawnow --break-system-packages
+sudo apt-get install -y i2c-tools python3-smbus
+python3 -m pip install --upgrade --no-cache-dir adafruit-blinka adafruit-circuitpython-busdevice adafruit-circuitpython-ads1x15 --break-system-packages
+
