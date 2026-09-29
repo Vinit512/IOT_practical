@@ -1,3 +1,7 @@
+VCC: Pin 2
+GND: Pin 6   
+Tx: Pin 10   
+
 1. create and activate virtual environment
 2. Enter the commands one by one:-
 	dtparam=spi=on
