@@ -8,9 +8,7 @@ Telegram Steps:
 6. create and opne venv
 7. pip install telepot
 8. pip install RPi.GPIO
-9. git clone https://github.com/salmanfarisvp/TelegramBot.git
-10. cd TelegramBot
-11. nano telegrambot.py
-12. bot = telepot.Bot('your_bot_token')
-13. python telegrambot.py and connect LED
-14. send cmd /start then on &off to run
+9. nano telegrambot.py
+10. bot = telepot.Bot('your_bot_token')
+11. python telegrambot.py and connect LED
+12. send cmd /start then on &off to run
